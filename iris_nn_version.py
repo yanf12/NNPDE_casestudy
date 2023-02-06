@@ -70,7 +70,7 @@ if __name__ == "__main__":
     h = 0.01 # step size for finite difference approximation
     loss_list = []
 
-    epoch = 150
+    epoch = 250
     for n in range(epoch):
         for i in range(X.shape[0]):
             x = torch.tensor(X[i]).float()

@@ -47,7 +47,7 @@ if __name__ == "__main__":
     model.train()
     optimizer = optim.SGD(model.parameters(), lr=0.001)
 
-    num_iteration = 500
+    num_iteration = 5000
     h = 0.01 # step size for finite difference approximation
     loss_list = []
 
